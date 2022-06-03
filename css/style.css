@@ -1,0 +1,10 @@
+body {
+    background-color: #2e2d4c;
+}
+.conteudo {    
+    width: 72%;
+    background-color: white;
+    margin: 120px auto;
+    padding: 50px;
+    border-radius: 10px;
+}
