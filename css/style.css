@@ -10,7 +10,7 @@ body {
     line-height: 3rem;
     width: 72%;
     background-color: white;
-    margin: 120px auto;
+    margin: 120px 120px 0;
     padding: 50px;
     border-radius: 10px;
 }
@@ -107,3 +107,13 @@ body {
 .btn-inicio:hover {
     opacity: 1;
 }
+
+.footer {
+    position: relative;
+    padding: 120px;
+    background-color: #1b1a2f;
+    color: #fff;
+    text-align: center;
+    word-spacing: 5px;
+}
+
