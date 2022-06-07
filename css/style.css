@@ -5,6 +5,7 @@ body {
     background-color: #2e2d4c;
     background-image: url(../img/background-foods-v4.png);
     background-attachment: fixed;
+    padding-bottom: 100px;
 }
 .conteudo {    
     line-height: 3rem;
@@ -24,6 +25,7 @@ body {
 
 .logo img {
     width: 220px;
+    margin: 100px 530px;
 }
 
 .navigation li {
@@ -81,6 +83,7 @@ body {
 .fotos img {
    width: 400px;
    height: 240px;
+   margin: 35px;
    border-radius: 8px;
    filter: grayscale(0.4);
 }
@@ -90,8 +93,7 @@ body {
 }
 
 .btn-inicio {
-    font-size: 3rem;
-    color: #fff;
+    font-size: 3rem;    
     width: 60px;
     height: 60px;
     line-height: 60px;
@@ -101,8 +103,10 @@ body {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0.3;
+    opacity: 0.3;  
+    z-index: 1;  
 }
+
 
 .btn-inicio:hover {
     opacity: 1;
@@ -110,10 +114,29 @@ body {
 
 .footer {
     position: relative;
-    padding: 120px;
-    background-color: #1b1a2f;
+    padding: 100px;
+    background-color: #4b4a69;
     color: #fff;
     text-align: center;
     word-spacing: 5px;
 }
 
+.logotipo {
+    color: #2e2d4c;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    font-size: 1.8rem;
+    padding-top: 10px;
+    z-index: 1;
+}
+
+.logomarca.fundo {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    float: right;
+    margin-right: 50%;
+    transform: translateX(50%) rotate(45deg);
+    margin-top: -60px;
+}
