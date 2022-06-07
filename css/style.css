@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: "Lora", serif;
 }
@@ -58,8 +61,16 @@ body {
     margin-right:20px;
 }
 
+.fonte--grande {
+    font-size: 3.2rem;
+}
+
 .fonte--media {
     font-size: 1.7rem;
+}
+
+.fonte--pequena {
+    font-size: 1.2rem;
 }
 
 .titulo {
@@ -139,4 +150,26 @@ body {
     margin-right: 50%;
     transform: translateX(50%) rotate(45deg);
     margin-top: -60px;
+}
+
+@media (max-width: 720px) {
+    body {
+        position: absolute;
+    }
+
+    .logo img {
+        width: 120px;
+    }
+    
+    .fonte--grande {
+        font-size: 2,6rem;
+    }
+    
+    .fonte--media {
+        font-size: 1.5rem;
+    }
+    
+    .fonte--pequena {
+        font-size: 1.1rem;
+    }
 }
